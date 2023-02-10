@@ -1,0 +1,24 @@
+{
+    "$schema": "../schemas/domain.json",
+
+    "domain": "is-a-backend.dev",
+    "subdomain": "nova",
+
+    "owner": {
+        "email": "bashkand@outlook.com"
+    },
+
+    "records": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "is-a-backend.dev",
+        "TXT": [
+            {
+                "name": "@",
+                "value": "is-a-backend.dev_verification=8884362888"
+            }
+        ]
+    },
+
+    "proxied": false
+}
